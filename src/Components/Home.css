@@ -1,0 +1,87 @@
+.home-container {
+    display: flex;
+    height: 100vh;
+  }
+  .left-component {
+    flex: 2; 
+    background-color: #000000;
+    color: white; 
+  }
+  
+  .right-component {
+    flex: 15;
+    background-image: url('../../public/images/home-img.jpg');
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .navbar-logo {
+    width: 100%; 
+  }
+  .menu p {
+    padding: 10px 0px 10px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+
+  }
+  
+  .menu p:hover {
+    background-color: #292929;
+    border-right: 2px solid #0e8b9f;
+  }
+  .nav-icons{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #0e8b9f;
+  }
+  .main{
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.959),rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.767));
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .intro{
+    margin: 10px 30px 0px 30px;
+    padding: 20px 20px 0px 20px;
+    width: 35%;
+    font-size: 50px;
+    font-weight: 400;
+    color: #e3fbffde;
+  }
+  .popular-recipies{
+    margin: 10px 30px 0px 30px;
+    padding: 10px 20px 0px 20px;
+    color: #dcfaffe7;
+  }
+  .popular-recipies h3{
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #08a5bd1c;
+  }
+.search-field{
+    background-color: #074e648e;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    width: 300px;
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+}
+.radio-field{
+    margin-right: 50px;
+}
+.select-field{
+    background-color: #074e648e;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    width: 10%;
+}
