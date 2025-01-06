@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="left-component">
-      <img src="/images/logo.png" alt="Logo" className="navbar-logo" />
+      <img src="images/logo.png" alt="Logo" className="navbar-logo" />
       <nav className="menu">
             <p><FontAwesomeIcon icon={faDrumstickBite} className="nav-icons" />Find Recipes</p>
             <p><FontAwesomeIcon icon={faMartiniGlassCitrus} className="nav-icons"/>Smart Cuisine</p>
