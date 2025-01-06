@@ -3,7 +3,7 @@ import Home from './Components/Home';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/dishcovery">
     <Routes>
       <Route path="/" element={<Home />} />    
     </Routes>
